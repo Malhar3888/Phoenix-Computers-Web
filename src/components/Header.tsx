@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Sun, Moon } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import phoenixLogo from "@/assets/phoenix-logo.png";
 
 interface HeaderProps {
   isDark: boolean;
@@ -29,9 +30,7 @@ const Header = ({ isDark, toggleTheme }: HeaderProps) => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-primary to-purple-600 rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl">P</span>
-            </div>
+            <img src={phoenixLogo} alt="Phoenix Computers Logo" className="w-10 h-10" />
             <span className="font-bold text-xl text-foreground">Phoenix Computers</span>
           </Link>
 
@@ -54,7 +53,7 @@ const Header = ({ isDark, toggleTheme }: HeaderProps) => {
             <Button variant="ghost" size="icon" onClick={toggleTheme}>
               {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
             </Button>
-            <Button className="hidden sm:inline-flex bg-gradient-to-r from-primary to-purple-600 hover:from-primary/90 hover:to-purple-600/90">
+            <Button className="hidden sm:inline-flex bg-primary hover:bg-primary/90">
               Enroll Now
             </Button>
             <Button

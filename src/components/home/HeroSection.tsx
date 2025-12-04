@@ -6,15 +6,15 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-[90vh] flex items-center overflow-hidden">
       {/* Animated Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-purple-500/10 to-background">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(120,119,198,0.15),transparent_50%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.15),transparent_50%)]" />
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-accent to-background">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,hsl(43_74%_49%_/_0.15),transparent_50%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,hsl(35_80%_45%_/_0.15),transparent_50%)]" />
       </div>
 
       {/* Floating Elements */}
       <div className="absolute top-20 left-10 w-20 h-20 bg-primary/20 rounded-full blur-xl animate-pulse" />
-      <div className="absolute bottom-20 right-10 w-32 h-32 bg-purple-500/20 rounded-full blur-xl animate-pulse delay-1000" />
-      <div className="absolute top-1/2 right-1/4 w-16 h-16 bg-blue-500/20 rounded-full blur-xl animate-pulse delay-500" />
+      <div className="absolute bottom-20 right-10 w-32 h-32 bg-primary/30 rounded-full blur-xl animate-pulse delay-1000" />
+      <div className="absolute top-1/2 right-1/4 w-16 h-16 bg-primary/20 rounded-full blur-xl animate-pulse delay-500" />
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
@@ -25,7 +25,7 @@ const HeroSection = () => {
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
             Phoenix Computers
-            <span className="block bg-gradient-to-r from-primary via-purple-500 to-blue-500 bg-clip-text text-transparent">
+            <span className="block text-primary">
               Learn. Build. Grow.
             </span>
           </h1>
@@ -37,7 +37,7 @@ const HeroSection = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Link to="/courses">
-              <Button size="lg" className="bg-gradient-to-r from-primary to-purple-600 hover:from-primary/90 hover:to-purple-600/90 w-full sm:w-auto">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 w-full sm:w-auto">
                 <BookOpen className="mr-2 h-5 w-5" />
                 Explore Courses
               </Button>
@@ -68,7 +68,7 @@ const HeroSection = () => {
                 key={index}
                 className="bg-card/50 backdrop-blur border border-border rounded-xl p-4 hover:bg-card transition-colors"
               >
-                <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-transparent">
+                <div className="text-2xl md:text-3xl font-bold text-primary">
                   {stat.number}
                 </div>
                 <div className="text-sm text-muted-foreground">{stat.label}</div>
