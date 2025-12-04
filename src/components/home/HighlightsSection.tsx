@@ -52,7 +52,7 @@ const HighlightsSection = () => {
               key={index}
               className="group bg-card border border-border rounded-xl p-6 hover:shadow-lg hover:border-primary/50 transition-all duration-300"
             >
-              <div className="w-14 h-14 bg-gradient-to-br from-primary/20 to-purple-500/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <div className="w-14 h-14 bg-primary/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                 <item.icon className="h-7 w-7 text-primary" />
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-2">{item.title}</h3>
