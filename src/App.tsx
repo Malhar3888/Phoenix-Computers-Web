@@ -52,6 +52,7 @@ const App = () => {
         <BrowserRouter>
           <div className="min-h-screen flex flex-col bg-background">
             <Header isDark={isDark} toggleTheme={toggleTheme} />
+            {/* Removed HMR test banner */}
             <div className="flex-1">
               <Routes>
                 <Route path="/" element={<Index />} />

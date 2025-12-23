@@ -15,7 +15,7 @@ const Footer = () => {
               <span className="font-bold text-xl text-foreground">Phoenix Computers</span>
             </div>
             <p className="text-muted-foreground text-sm mb-4">
-              Kolhapur's premier IT training institute empowering students with real-world skills since 2010.
+              Phoenix Computers is one of the best computer training institutes in Ichalkaranji, known for delivering high-quality education, expert-led training, and industry-focused courses.
             </p>
             <div className="flex gap-3">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
@@ -82,15 +82,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-sm text-muted-foreground">
                 <MapPin className="h-5 w-5 flex-shrink-0 text-primary" />
-                <span>Phoenix Computers, Near Shivaji Chowk, Kolhapur, Maharashtra 416001</span>
+                <span>Phoenix Computers Training And Institute, 16/563 Sangram Chowk ,Ichalkaranji , Kolhapur</span>
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Phone className="h-5 w-5 flex-shrink-0 text-primary" />
-                <span>+91 98765 43210</span>
+                <span>+91 77963 80995</span>
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Mail className="h-5 w-5 flex-shrink-0 text-primary" />
-                <span>info@phoenixcomputers.in</span>
+                <span>phoenixcomputers1997@gmail.com</span>
               </li>
             </ul>
           </div>

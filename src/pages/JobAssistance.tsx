@@ -4,7 +4,7 @@ import { Briefcase, Target, FileText, Users, TrendingUp, CheckCircle } from "luc
 
 const companies = [
   "TCS", "Infosys", "Wipro", "Tech Mahindra", "Capgemini", 
-  "Accenture", "Cognizant", "HCL", "Mindtree", "L&T Infotech"
+  "Accenture", "Cognizant", "HCL", "Mindtree", "Technosoft"
 ];
 
 const JobAssistance = () => {
@@ -25,7 +25,7 @@ const JobAssistance = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
           {[
             { number: "95%", label: "Placement Rate" },
-            { number: "1000+", label: "Students Placed" },
+            { number: "2000+", label: "Students Placed" },
             { number: "50+", label: "Partner Companies" },
             { number: "₹4-8 LPA", label: "Average Package" },
           ].map((stat, index) => (

@@ -54,8 +54,8 @@ const Contact = () => {
                     <h3 className="font-semibold text-foreground">Address</h3>
                     <p className="text-muted-foreground">
                       Phoenix Computers<br />
-                      Near Shivaji Chowk<br />
-                      Kolhapur, Maharashtra 416001
+                      Sangram Chowk , Ichalkaranji<br />
+                      Kolhapur, Maharashtra 416115
                     </p>
                   </div>
                 </div>
@@ -66,8 +66,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground">Phone</h3>
-                    <p className="text-muted-foreground">+91 98765 43210</p>
-                    <p className="text-muted-foreground">+91 98765 43211</p>
+                    <p className="text-muted-foreground">+91 99229 97670</p>
+                    <p className="text-muted-foreground">+91 77963 80995</p>
                   </div>
                 </div>
 
@@ -78,7 +78,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-foreground">Email</h3>
                     <p className="text-muted-foreground">info@phoenixcomputers.in</p>
-                    <p className="text-muted-foreground">admissions@phoenixcomputers.in</p>
+                    <p className="text-muted-foreground">phoenixcomputers1997@gmail.com</p>
                   </div>
                 </div>
 
@@ -114,7 +114,7 @@ const Contact = () => {
             {/* Map */}
             <div className="bg-card border border-border rounded-2xl overflow-hidden h-64">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122270.44942851888!2d74.12318755!3d16.7049873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1000cdec07a29%3A0xece8ea642952e42f!2sKolhapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1702000000000!5m2!1sen!2sin"
+                src="https://maps.google.com/maps?q=Phoenix+Computers+and+Abacus+Ichalkaranji&z=15&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

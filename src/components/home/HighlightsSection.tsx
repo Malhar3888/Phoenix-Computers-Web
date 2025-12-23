@@ -3,7 +3,7 @@ import { GraduationCap, BookOpen, Users, Laptop, Briefcase, Award } from "lucide
 const highlights = [
   {
     icon: GraduationCap,
-    title: "1000+ Students Trained",
+    title: "2000+ Students Trained",
     description: "Successfully trained over a thousand students in various IT domains",
   },
   {

@@ -4,19 +4,19 @@ import { Clock, Download, Users, BookOpen, Star } from "lucide-react";
 
 const courses = [
   {
-    title: "Python Full Stack Development",
-    duration: "6 Months",
-    students: "200+",
-    rating: 4.9,
-    description: "Master Python programming, Django framework, REST APIs, and full-stack web development with databases and deployment.",
-    syllabus: ["Python Basics & Advanced", "Django Framework", "REST APIs", "Database Management", "Frontend Integration", "Deployment"],
+    title: "Python Programming",
+    duration: "3 Months",
+    students: "50+",
+    rating: 4.4,
+    description: "Learn Python from basics to advanced with 100% practical training. This course covers fundamentals, data structures, OOP, file handling, and real-time projects. Ideal for beginners and students who want to build careers in software development, automation, data science, and AI. Flexible batch timings, expert trainers, and certification included.",
+    syllabus: ["Basics: Variables","Data types"," Loops "," Data Structures: List", "Tuple", "Set", "Dictionary ", "Functions & Modules" ," File Handling" , "OOP Concepts" , "Exception Handling ", "Regular Expressions"],
     timing: "Morning / Evening Batches",
     gradient: "from-yellow-500 to-orange-500",
   },
   {
     title: "Java Full Stack Development",
     duration: "6 Months",
-    students: "180+",
+    students: "30+",
     rating: 4.8,
     description: "Complete Java development with Spring Boot, Hibernate, microservices architecture, and modern deployment practices.",
     syllabus: ["Core Java", "Advanced Java", "Spring Boot", "Hibernate", "Microservices", "DevOps Basics"],
@@ -25,8 +25,8 @@ const courses = [
   },
   {
     title: "MERN Stack Development",
-    duration: "5 Months",
-    students: "220+",
+    duration: "3 Months",
+    students: "50+",
     rating: 4.9,
     description: "Build modern web applications using MongoDB, Express.js, React.js, and Node.js with real-world projects.",
     syllabus: ["MongoDB", "Express.js", "React.js", "Node.js", "REST APIs", "Authentication"],
@@ -44,9 +44,9 @@ const courses = [
     gradient: "from-blue-600 to-indigo-600",
   },
   {
-    title: "Data Science & Machine Learning",
-    duration: "6 Months",
-    students: "120+",
+    title: "Machine Learning",
+    duration: "3 Months",
+    students: "10+",
     rating: 4.9,
     description: "Comprehensive data science course covering Python, statistics, machine learning algorithms, and real-world applications.",
     syllabus: ["Python for Data Science", "Statistics", "Machine Learning", "Deep Learning", "Data Visualization", "Projects"],
@@ -76,7 +76,7 @@ const courses = [
   {
     title: "CCC (Course on Computer Concepts)",
     duration: "3 Months",
-    students: "400+",
+    students: "500+",
     rating: 4.6,
     description: "Government recognized computer course covering basic computing, internet, and office applications.",
     syllabus: ["Computer Basics", "MS Office", "Internet & Email", "Digital Literacy", "Cyber Security Basics", "Exam Prep"],
@@ -133,7 +133,7 @@ const courses = [
     timing: "Flexible Batches",
     gradient: "from-pink-500 to-rose-500",
   },
-  {
+  /*{
     title: "Cyber Security & Ethical Hacking",
     duration: "4 Months",
     students: "60+",
@@ -142,7 +142,7 @@ const courses = [
     syllabus: ["Security Fundamentals", "Network Security", "Ethical Hacking Basics", "Penetration Testing", "Security Tools", "Compliance"],
     timing: "Weekend Batches",
     gradient: "from-red-600 to-orange-600",
-  },
+  },*/
 ];
 
 const Courses = () => {

@@ -29,6 +29,7 @@ const Header = ({ isDark, toggleTheme }: HeaderProps) => {
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
+          {/* Logo Section */}
           <Link to="/" className="flex items-center gap-2">
             <img src={phoenixLogo} alt="Phoenix Computers Logo" className="w-10 h-10" />
             <span className="font-bold text-xl text-foreground">Phoenix Computers</span>
@@ -49,18 +50,26 @@ const Header = ({ isDark, toggleTheme }: HeaderProps) => {
             ))}
           </nav>
 
+          {/* Action Buttons */}
           <div className="flex items-center gap-2">
-            <Button variant="ghost" size="icon" onClick={toggleTheme}>
+            <Button variant="ghost" size="icon" onClick={toggleTheme} aria-label="Toggle theme">
               {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
             </Button>
-            <Button className="hidden sm:inline-flex bg-primary hover:bg-primary/90">
-              Enroll Now
-            </Button>
+
+            {/* FIXED: Wrapped in Link to make it functional */}
+            <Link to="/admission">
+              <Button className="hidden sm:inline-flex bg-primary hover:bg-primary/90 text-primary-foreground">
+                Enroll Now
+              </Button>
+            </Link>
+
+            {/* Mobile Menu Toggle */}
             <Button
               variant="ghost"
               size="icon"
               className="lg:hidden"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-label="Toggle menu"
             >
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </Button>
@@ -69,7 +78,7 @@ const Header = ({ isDark, toggleTheme }: HeaderProps) => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="lg:hidden py-4 border-t border-border animate-fade-in">
+          <nav className="lg:hidden py-4 border-t border-border animate-in fade-in slide-in-from-top-1">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
@@ -82,6 +91,14 @@ const Header = ({ isDark, toggleTheme }: HeaderProps) => {
                 {link.name}
               </Link>
             ))}
+            {/* Mobile-only Enroll Button (Optional) */}
+            <div className="pt-4 sm:hidden">
+              <Link to="/admission" onClick={() => setIsMenuOpen(false)}>
+                <Button className="w-full bg-primary hover:bg-primary/90">
+                  Enroll Now
+                </Button>
+              </Link>
+            </div>
           </nav>
         )}
       </div>
