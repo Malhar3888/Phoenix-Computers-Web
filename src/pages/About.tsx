@@ -7,14 +7,14 @@ const founders = [
     role: "CEO & Founder",
     specialization: "Vb.net, SQL Server, Web Technologies",
     experience: "25+ Years",
-    image: "src/assets/Pandit.png", 
+    image: "/images/Pandit.png", 
   },
   {
     name: "PRASHANT DHAVALE",
     role: "Manager & Founder",
     specialization: "Tally, GST, Digital Marketing",
     experience: "20+ Years",
-    image: "src/assets/Prashant.png",
+    image: "/images/Prashant.png",
   },
 ];
 
@@ -26,28 +26,28 @@ const team = [
     role: "Lead Trainer & Developer",
     specialization: "Full Stack Development, System Design",
     experience: "2+ Years",
-    image: "src/assets/Malhar.png",
+    image: "/images/Malhar.png",
   },
   {
     name: "Kamal Sharma",
     role: "Software Developer & Trainer",
     specialization: "MERN Stack, Python, Cloud",
     experience: "2+ Years",
-    image: "src/assets/kamal.jpg",
+    image: "/images/kamal.jpg",
   },
   {
     name: "Abhijeet Dhumale",
     role: "Software Developer & Trainer",
     specialization: "Java, Data Structures, Algorithms",
     experience: "2+ Years",
-    image: "src/assets/abhi.jpg",
+    image: "/images/abhi.jpg",
   },
   {
     name: "Pranali Bhandare",
     role: "Trainer",
     specialization: "Web Design, C++, PowerBi",
     experience: "1+ Years",
-    image: "src/assets/pranali.jpg",
+    image: "/images/pranali.jpg",
   },
 ];
 
@@ -98,7 +98,7 @@ const About = () => {
             {/* Since 2010 Image */}
             <div className="flex items-center justify-center p-4">
                 <img 
-                  src="src/assets/story.jpg" 
+                  src="/images/story.jpg" 
                   alt="Since 2010 Excellence" 
                   className="rounded-2xl shadow-xl w-full max-w-md hover:scale-105 transition-transform duration-300"
                 />
