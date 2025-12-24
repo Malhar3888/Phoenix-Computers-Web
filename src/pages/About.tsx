@@ -14,7 +14,7 @@ const founders = [
     role: "Manager & Founder",
     specialization: "Tally, GST, Digital Marketing",
     experience: "20+ Years",
-    image: "/images/Prashant.png",
+    image: "/images/prashant.png",
   },
 ];
 
