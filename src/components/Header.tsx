@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Sun, Moon } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import phoenixLogo from "@/assets/phoenix-logo.png";
+import phoenixLogo from "../assets/phoenix-logo.png";
 
 interface HeaderProps {
   isDark: boolean;
@@ -31,7 +31,7 @@ const Header = ({ isDark, toggleTheme }: HeaderProps) => {
         <div className="flex items-center justify-between h-16">
           {/* Logo Section */}
           <Link to="/" className="flex items-center gap-2">
-            <img src={phoenixLogo} alt="Phoenix Computers Logo" className="w-10 h-10" />
+            <img src="/images/phoenix-logo.png" alt="Phoenix Computers Logo" className="w-10 h-10" />
             <span className="font-bold text-xl text-foreground">Phoenix Computers</span>
           </Link>
 
