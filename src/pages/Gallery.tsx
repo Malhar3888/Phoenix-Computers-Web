@@ -22,16 +22,16 @@ const galleryItems = [
     type: "video",
     category: "events", 
     title: "Our Institute Overview", 
-    src: "src/assets/PC.mp4", 
-    poster: "src/assets/page.jpg"
+    src: "/images/PC.mp4", 
+    poster: "/images/page.jpg"
   },
   { 
     id: 102, 
     type: "video",
     category: "projects", 
     title: "Our Project Showcase", 
-    src: "src/assets/project_video.mp4", // Placeholder
-    poster: "src/assets/pro1.png"
+    src: "/images/project_video.mp4", // Placeholder
+    poster: "/images/pro1.png"
   },
 
   // --------------------------------------------------------
@@ -42,12 +42,12 @@ const galleryItems = [
     type: "album",
     category: "projects",
     title: "Full Stack Development Projects",
-    src: "src/assets/pro1.png",
+    src: "/images/pro1.png",
     images: [
-      "src/assets/pro5.png",
-      "src/assets/pro2.png",
-      "src/assets/pro3.png",
-      "src/assets/pro4.png"
+      "/images/pro5.png",
+      "/images/pro2.png",
+      "/images/pro3.png",
+      "/images/pro4.png"
     ]
   },
   /*{
@@ -55,11 +55,11 @@ const galleryItems = [
     type: "album",
     category: "classroom",
     title: "Interactive Theory Sessions",
-    src: "src/assets/class_thumb.jpg", // Replace with real path
+    src: "/images/class_thumb.jpg", // Replace with real path
     images: [
-      "src/assets/class1.jpg",
-      "src/assets/class2.jpg",
-      "src/assets/class3.jpg"
+      "/images/class1.jpg",
+      "/images/class2.jpg",
+      "/images/class3.jpg"
     ]
   },*/
   // --- NEW LANDSCAPE VIDEO ADDED HERE ---
@@ -68,8 +68,8 @@ const galleryItems = [
     type: "video",
     category: "Openings", 
     title: "Opening Ceremony 2025", 
-    src: "src/assets/PHOENIX.mp4", 
-    poster: "src/assets/Phoenixbr.png",
+    src: "/images/PHOENIX.mp4", 
+    poster: "/images/Phoenixbr.png",
     // orientation: "landscape"  <-- REMOVED (Defaults to Portrait/Vertical)
   },
   {
@@ -77,11 +77,11 @@ const galleryItems = [
     type: "album",
     category: "certification",
     title: "Annual Convocation Ceremony",
-    src: "src/assets/cert_group.jpg", // Replace with real path
+    src: "/images/cert_group.jpg", // Replace with real path
     images: [
-      "src/assets/cert_dist1.jpg",
-      "src/assets/cert_dist2.jpg",
-      "src/assets/cert_dist3.jpg"
+      "/images/cert_dist1.jpg",
+      "/images/cert_dist2.jpg",
+      "/images/cert_dist3.jpg"
     ]
   },
 
@@ -93,48 +93,48 @@ const galleryItems = [
     type: "image",
     category: "events", 
     title: "Best Performance Award", 
-    src: "src/assets/p1.jpg" 
+    src: "/images/p1.jpg" 
   },
   { 
     id: 2, 
     type: "image",
     category: "events", 
     title: "Student Achievements 2024", 
-    src: "src/assets/p2.jpg" 
+    src: "/images/p2.jpg" 
   },
   { 
     id: 3, 
     type: "image",
     category: "certification", 
     title: "CCC Certification Excellence", 
-    src: "src/assets/s2.jpg" 
+    src: "/images/s2.jpg" 
   },
   { 
     id: 4, 
     type: "image",
     category: "certification", 
     title: "Tally ERP 9 Gold Certified", 
-    src: "src/assets/s3.jpg" 
+    src: "/images/s3.jpg" 
   },
   { 
     id: 5, 
     type: "image",
     category: "certification", 
     title: "Top Performer: Advanced Excel", 
-    src: "src/assets/s1.jpg"
+    src: "/images/s1.jpg"
   },
   { 
     id: 5, 
     type: "image",
     category: "certification", 
     title: "Top Performer: Advanced Excel", 
-    src: "src/assets/Q1.jpg"
+    src: "/images/Q1.jpg"
   },{ 
     id: 5, 
     type: "image",
     category: "certification", 
     title: "Top Performer: Advanced Excel", 
-    src: "src/assets/Q2.jpg"
+    src: "/images/Q2.jpg"
   },
 
   // --------------------------------------------------------
@@ -145,35 +145,35 @@ const galleryItems = [
     type: "image",
     category: "lab", 
     title: "High-Tech Computer Lab", 
-    src: "src/assets/lab1.jpg" // Replace with real path
+    src: "/images/lab1.jpg" // Replace with real path
   },
   { 
     id: 7, 
     type: "image",
     category: "lab", 
     title: "Students During Practice", 
-    src: "src/assets/lab2.jpg" // Replace with real path
+    src: "/images/lab2.jpg" // Replace with real path
   },
   { 
     id: 8, 
     type: "image",
     category: "lab", 
     title: "Hardware & Networking Session", 
-    src: "src/assets/lab3.jpg" // Replace with real path
+    src: "/images/lab3.jpg" // Replace with real path
   },
   { 
     id: 9, 
     type: "image",
     category: "classroom", 
     title: "Weekend Coding Workshop", 
-    src: "src/assets/workshop.jpg" // Replace with real path
+    src: "/images/workshop.jpg" // Replace with real path
   },
   { 
     id: 10, 
     type: "image",
     category: "projects", 
     title: "Inventory System UI Design", 
-    src: "src/assets/ui_design.jpg" // Replace with real path
+    src: "/images/ui_design.jpg" // Replace with real path
   },*/
 ];
 
