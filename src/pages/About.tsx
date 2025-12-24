@@ -43,6 +43,13 @@ const team = [
     image: "/images/abhi.jpg",
   },
   {
+    name: "Sufiya Bargir",
+    role: "Trainer",
+    specialization: "Flutter, UI/UX Design",
+    experience: "1+ Years",
+    image: "/images/sufi.jpg",
+  },
+  {
     name: "Pranali Bhandare",
     role: "Trainer",
     specialization: "Web Design, C++, PowerBi",
